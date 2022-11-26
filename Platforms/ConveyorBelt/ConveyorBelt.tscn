@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="ConveyorBelt" type="Node2D"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
